@@ -12,7 +12,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class instructor {
+public class Instructor {
     
     @Id
     private Long id;
