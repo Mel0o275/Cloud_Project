@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.cloud.instructor.features.auth.entity.instructor;
+import com.cloud.instructor.features.auth.entity.Instructor;
 import com.cloud.instructor.features.auth.repo.instructorRepository;
 import com.cloudinary.Cloudinary;
 import com.cloudinary.utils.ObjectUtils;
@@ -41,7 +41,7 @@ public void uploadCertificates(
         Long id,
         List<MultipartFile> files) {
 
-    instructor instructor = new instructor();
+    Instructor instructor = new Instructor();
     instructor.setId(id);
 
     List<String> urls = files.stream()
@@ -72,7 +72,7 @@ public void uploadCertificates(
     // );
 }
 
-public instructor getinstructor(Long id) {
+public Instructor getinstructor(Long id) {
     return instructorRepository.findById(id).orElseThrow();
 }
 
