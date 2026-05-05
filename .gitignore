@@ -1,0 +1,13 @@
+AI/
+**/target/
+**/target/**
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.idea/
+.vscode/
+*.swp
+*.DS_Store
+hs_err_pid*
