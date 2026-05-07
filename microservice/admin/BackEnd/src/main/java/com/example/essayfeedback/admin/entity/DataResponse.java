@@ -1,0 +1,19 @@
+// package com.example.essayfeedback.auth.entity;
+package com.example.essayfeedback.admin.entity;
+
+import lombok.Getter;
+
+@Getter
+public class DataResponse {
+    private final boolean auth;
+    private final String username;
+    private final String role;
+    private final Long id;
+
+    public DataResponse(boolean auth, String username, String role,Long id) {
+        this.auth = auth;
+        this.username = username;
+        this.role = role;
+        this.id = id;
+    }
+}
