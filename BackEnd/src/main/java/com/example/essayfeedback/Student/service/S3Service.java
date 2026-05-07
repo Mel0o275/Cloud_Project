@@ -1,4 +1,4 @@
-package com.example.essayfeedback.student.service;
+package com.example.essayfeedback.Student.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

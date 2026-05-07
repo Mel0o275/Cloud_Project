@@ -7,11 +7,17 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.example.essayfeedback.student.entity.Essay;
-import com.example.essayfeedback.student.repository.EssayRepository;
-import com.example.essayfeedback.instructor.entity.ApiResponse;
-import com.example.essayfeedback.student.service.S3Service;
+// import com.cloudinary.api.ApiResponse;
+import com.example.essayfeedback.Student.entity.Essay;
+import com.example.essayfeedback.Student.repository.EssayRepository;
+import com.example.essayfeedback.Student.service.S3Service;
+// import com.example.essayfeedback.student.entity.Essay;
+// import com.example.essayfeedback.student.repository.EssayRepository;
+// import com.example.essayfeedback.instructor.entity.ApiResponse;
+// import com.example.essayfeedback.student.service.S3Service;
 import com.example.essayfeedback.auth.repo.AuthRepo;
+// import com.example.essayfeedback.student.service.S3Service;
+import com.example.essayfeedback.instructor.entity.ApiResponse;
 
 @Service
 public class InstructorService 

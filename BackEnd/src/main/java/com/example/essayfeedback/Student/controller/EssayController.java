@@ -1,4 +1,4 @@
-package com.example.essayfeedback.student.controller;
+package com.example.essayfeedback.Student.controller;
 
 import java.util.Map;
 import java.util.List;
@@ -7,9 +7,13 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.example.essayfeedback.student.dto.EssayRequest;
-import com.example.essayfeedback.student.entity.Essay;
-import com.example.essayfeedback.student.service.EssayService;
+import com.example.essayfeedback.Student.dto.EssayRequest;
+import com.example.essayfeedback.Student.entity.Essay;
+import com.example.essayfeedback.Student.service.EssayService;
+
+// import com.example.essayfeedback.student.dto.EssayRequest;
+// import com.example.essayfeedback.student.entity.Essay;
+// import com.example.essayfeedback.student.service.EssayService;
 
 @CrossOrigin(origins = "*")
 @RestController

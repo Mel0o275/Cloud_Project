@@ -1,8 +1,11 @@
-package com.example.essayfeedback.student.service;
+package com.example.essayfeedback.Student.service;
 
-import com.example.essayfeedback.student.entity.Essay;
-import com.example.essayfeedback.student.repository.EssayRepository;
+// import com.example.essayfeedback.student.entity.Essay;
+// import com.example.essayfeedback.student.repository.EssayRepository;
 import org.springframework.stereotype.Service;
+
+import com.example.essayfeedback.Student.entity.Essay;
+import com.example.essayfeedback.Student.repository.EssayRepository;
 
 import java.util.List;
 

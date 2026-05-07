@@ -1,4 +1,4 @@
-package com.example.essayfeedback.student.dto;
+package com.example.essayfeedback.Student.dto;
 
 public class EssayRequest {
     private String content;

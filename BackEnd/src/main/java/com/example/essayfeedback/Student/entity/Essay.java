@@ -1,4 +1,4 @@
-package com.example.essayfeedback.student.entity;
+package com.example.essayfeedback.Student.entity;
 
 import jakarta.persistence.*;
 import jakarta.persistence.Transient;

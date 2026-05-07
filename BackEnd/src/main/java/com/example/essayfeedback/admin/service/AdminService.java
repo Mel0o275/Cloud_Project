@@ -1,11 +1,12 @@
 package com.example.essayfeedback.admin.service;
 
 import com.example.essayfeedback.admin.exception.AdminUserNotFoundException;
+import com.example.essayfeedback.Student.repository.EssayRepository;
 import com.example.essayfeedback.admin.dto.UserDto;
 import com.example.essayfeedback.admin.repo.AdminUserRepository;
 import com.example.essayfeedback.admin.repo.AdminInstructorRepository;
 import com.example.essayfeedback.auth.repo.studentRepo;
-import com.example.essayfeedback.student.repository.EssayRepository;
+// import com.example.essayfeedback.student.repository.EssayRepository;
 import com.example.essayfeedback.auth.entity.User;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

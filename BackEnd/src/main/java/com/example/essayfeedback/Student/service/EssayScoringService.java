@@ -1,9 +1,12 @@
-package com.example.essayfeedback.student.service;
+package com.example.essayfeedback.Student.service;
 
-import com.example.essayfeedback.student.dto.AiModelRequest;
+// import com.example.essayfeedback.student.dto.AiModelRequest;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+
+import com.example.essayfeedback.Student.dto.AiModelRequest;
+
 import java.util.Map;
 
 @Service
