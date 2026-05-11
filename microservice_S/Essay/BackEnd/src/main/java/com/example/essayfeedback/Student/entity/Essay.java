@@ -2,8 +2,10 @@ package com.example.essayfeedback.Student.entity;
 
 import jakarta.persistence.*;
 import jakarta.persistence.Transient;
+import lombok.Getter;
 
 @Entity
+@Getter
 @Table(name = "essays")
 public class Essay {
 
@@ -17,7 +19,7 @@ public class Essay {
     private Double score;
     private String feedback;
 
-    @Column(name = "student_id")
+    // @Column(name = "student_id")
     private Long studentId;
 
     // @Transient

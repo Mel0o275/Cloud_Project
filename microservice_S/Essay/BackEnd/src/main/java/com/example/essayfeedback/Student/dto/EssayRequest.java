@@ -22,6 +22,11 @@ public class EssayRequest {
     }
 
     public String getStudentUsername() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return this.studentUsername;
+        // throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+        public void setStudentUsername(String studentUsername) {
+        this.studentUsername = studentUsername;
     }
 }
