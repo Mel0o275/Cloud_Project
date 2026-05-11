@@ -11,8 +11,8 @@ import org.springframework.context.annotation.Bean;
 
 import org.springframework.security.crypto.bcrypt.BCrypt;
 
-import com.example.essayfeedback.admin.entity.User;
-import com.example.essayfeedback.admin.repo.AuthRepo;
+import com.example.essayfeedback.auth.entity.User;
+import com.example.essayfeedback.auth.repo.AuthRepo;
 
 @SpringBootApplication
 public class EssayFeedbackApplication {

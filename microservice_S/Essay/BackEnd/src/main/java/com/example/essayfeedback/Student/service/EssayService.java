@@ -29,7 +29,7 @@ public class EssayService {
         String s3Key = s3Service.uploadEssay(content);
         Double score = scoringService.scoreEssay(content);
         
-        String feedback = "Good effort!"; 
+        String feedback = "Good effort!";
         if (score < 3) feedback = "Needs improvement.";
         else if (score >= 5) feedback = "Excellent work!";
 
@@ -52,7 +52,7 @@ public class EssayService {
     }
 
     public void deleteEssay(Long id){
-        essayRepository.deleteById(id);
+        essayRepository.deleteByStudentId(id);
     }
 
 
