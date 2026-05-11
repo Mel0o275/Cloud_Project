@@ -1,7 +1,8 @@
 package com.example.essayfeedback.admin.dto;
 
 // import com.example.essayfeedback.auth.entity.User;
-import com.example.essayfeedback.admin.entity.User;
+// import com.example.essayfeedback.admin.entity.User;
+import com.example.essayfeedback.auth.entity.User;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.Getter;

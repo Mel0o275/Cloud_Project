@@ -6,7 +6,8 @@ import java.util.List;
 
 // import com.example.essayfeedback.admin.entity.Instructor;
 import com.example.essayfeedback.auth.entity.Instructor;
-import com.example.essayfeedback.admin.entity.User;
+// import com.example.essayfeedback.admin.entity.User;
+import com.example.essayfeedback.auth.entity.User;
 
 import lombok.Data;
 
